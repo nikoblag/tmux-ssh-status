@@ -27,7 +27,7 @@ update_ssh_info() {
   if [[ -n "$hostname" && -n "$username" ]]; then
     printf "$username@$hostname"
   else
-    printf ""
+    printf "localhost"
   fi
 }
 

@@ -21,7 +21,7 @@ By default, this plugin will also rename the window to the hostname of the ssh s
 
 Add plugin to the list of TPM plugins in `.tmux.conf`:
 
-    set -g @plugin 'obxhdx/tmux-ssh-status'
+    set -g @plugin 'nikoblag/tmux-ssh-status'
 
 Hit `prefix + I` to fetch the plugin and source it.
 
@@ -31,7 +31,7 @@ If format strings are added to `status-right` (or `status-left`), they should no
 
 Clone the repo:
 
-    $ git clone https://github.com/obxhdx/tmux-ssh-status ~/clone/path
+    $ git clone https://github.com/nikoblag/tmux-ssh-status ~/clone/path
 
 Add this line to the bottom of `.tmux.conf`:
 
